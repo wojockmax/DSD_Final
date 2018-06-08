@@ -18,5 +18,6 @@ no hazard : ncverilog Final_tb.v CHIP.v slow_memory.v DSDHW3.v cache.v +define+n
 has hazard : ncverilog Final_tb.v CHIP.v slow_memory.v DSDHW3.v cache.v +define+hasHazard +access+r
 
 我想說的大概就是這樣，還有debug真的有夠累的....
+
 http://www.1111boss.com.tw/new/franchisee/?sTradeCht=&sTrade=&sMoney=&sKeys=%E9%9B%9E%E6%8E%92&btn_Search=1
 你們覺得我要去加盟哪一間雞排店啊？麻煩給個建議，感謝。
