@@ -87,8 +87,8 @@ module RegDec(
     output wire [4:0] RegAddrY_ID;
     output wire [31:0] Data_X_hazard_in;
     output wire [31:0] Data_Y_hazard_in;
-    output wire [31:0] Data_X_hazard_out;
-    output wire [31:0] Data_Y_hazard_out;
+    input wire [31:0] Data_X_hazard_out;
+    input wire [31:0] Data_Y_hazard_out;
  
  //==== reg/wire declaration =============================== 
     // control (next)
